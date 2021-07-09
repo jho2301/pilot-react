@@ -1,5 +1,53 @@
 ## 파일럿 프로젝트 - React
 
+
+## 시연
+
+![main](https://user-images.githubusercontent.com/44419181/124958372-0e330a00-e055-11eb-85b7-aceecb85bd89.gif)
+
+## 기술스택
+사용기술 스택은 다음과 같습니다.
+
+빌드 툴
+- webpack + ts-loader
+
+언어
+- typescript
+
+SPA 프레임웍
+- react
+
+CSS in JS
+- styled-components
+
+전역상태관리
+- recoil
+
+테스트 툴
+- react-testing-library
+- storybook
+
+## 웹 VSCode 환경
+
+https://github.surf/jho2301/pilot-react/blob/HEAD/results/jho2301/README.md
+
+## 스토리북
+
+https://60e72955ee4db40049b700f0-gnjvrwyqhk.chromatic.com/
+
+## 주안점
+
+- CRA 사용안하고 빌드툴 config파일부터 작성했습니다.
+- 처음에 기능요구사항 구상하고 TDD로 코드짜려고 노력해봤습니다
+- CDD 따라서 스토리북으로 가장 작은 컴포넌트 요소부터 작성하려고 했습니다.
+- 클래스문법은 [APIClient](https://github.surf/jho2301/pilot-react/blob/HEAD/results/jho2301/src/util/API.ts)만들면서 적용해볼 수 있었습니다.
+- 로그인 기억하기 기능 구현하면서 세션스토리지하고 로컬스토리지를 분리해 사용했습니다.
+- 라우터가드 만들어봤습니다.
+- 디자인은 심플하고 깔끔하게 구성하려고 했습니다.
+- 최대한 코드의 중복을 없애고, 추상화, 레이어 분리하려고 고민 했습니다.
+- 통합테스트 위주로 테스트 구성하려고 했습니다
+- 테스트가 서버에 의존안하도록 목서
+
 React 파일럿 프로젝트를 진행한다.
 
 본인이 알고 있는 지식, 할 수 있는 모든것을 총 동원하여 만든다.
